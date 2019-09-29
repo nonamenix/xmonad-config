@@ -1,10 +1,10 @@
-Articles:
+## Articles:
 
-https://wiki.haskell.org/Xmonad/Using_xmonad_in_MATE
+- [Xmonad & Mate](./docs/mate.md)
 
-## Requirements
+## Insall
 
-```
+```sh
 sudo apt-get install ghc mate xmonad stack xcompmgr
 ```
 
@@ -12,7 +12,7 @@ sudo apt-get install ghc mate xmonad stack xcompmgr
 
 You will need to create a freedesktop.org desktop file for xmonad, probably in `/usr/share/applications/xmonad.desktop`
 
-```
+```ini
 [Desktop Entry]
 Type=Application
 Name=XMonad
@@ -26,6 +26,6 @@ X-GNOME-Autostart-Notify=true
 
 To replace `marco` with `xmonad` for all sessions, use the following (per user):
 
-```
+```sh
 dconf write /org/mate/session/required-components/windowmanager xmonad
 ```
