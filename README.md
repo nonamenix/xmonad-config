@@ -1,8 +1,6 @@
-## Articles:
+# Xmonad & Mate
 
-- [Xmonad & Mate](./docs/mate.md)
-
-## Insall
+## Install
 
 ```sh
 sudo apt-get install ghc mate xmonad stack xcompmgr
@@ -29,3 +27,7 @@ To replace `marco` with `xmonad` for all sessions, use the following (per user):
 ```sh
 dconf write /org/mate/session/required-components/windowmanager xmonad
 ```
+
+## Read more
+
+- [Xmonad & Mate](./docs/mate.md)
